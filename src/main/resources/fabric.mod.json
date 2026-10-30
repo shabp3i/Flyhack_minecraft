@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "flyhack",
+  "version": "${version}",
+  "name": "Fly Hack",
+  "description": "Simple fly hack: press F to toggle fly mode.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.flyhack.FlyHackClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

@@ -1,0 +1,9 @@
+﻿.gradle/
+.gradle-dist/
+build/
+build_log.txt
+run/
+.idea/
+*.iml
+out/
+gradle-8.10-bin.zip
